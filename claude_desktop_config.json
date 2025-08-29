@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "metasploit": {
+      "command": "python",
+      "args": ["/home/xx/metasploit-mcp/server.py", "--transport", "stdio"],
+      "env": {
+        "MSF_RPC_URL": "http://127.0.0.1:55553",
+        "MSF_RPC_PASSWORD": "dxi",
+        "MSF_RPC_SSL": "false",
+        "PAYLOAD_SAVE_DIR": "/home/xx/metasploit-mcp/payloads"
+      }
+    }
+  }
+}
